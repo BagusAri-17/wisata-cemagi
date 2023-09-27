@@ -30,9 +30,9 @@ const Navbar = () => {
         <div className='container'>
             <div className='flex items-center justify-between relative'>
                 <div>
-                    <Link to='/' className='flex items-center py-2'>
+                    <a href='/' className='flex items-center py-2'>
                         <span className={`text-[40px] font-indo font-bold tracking-widest ${color}`}>cemagi</span>
-                    </Link>
+                    </a>
                 </div>
                 <div className='flex items-center lg:hidden'>
                     <div>
@@ -41,14 +41,14 @@ const Navbar = () => {
                     <div>
                         <ul className={isOpen ? 'absolute right-0 top-full w-full rounded-lg bg-white py-4 md:py-8 shadow-lg duration-500 ease-in-out': 'fixed left-[-100%] duration-500 ease-in-out'}>
                                 <li className='flex flex-row items-center justify-center'>
-                                    <Link to='/' className='gap-4 text-primary font-semibold mx-8 flex py-2 text-sm md:text-base hover:cursor-pointer duration-300 transition' >
+                                    <a href='/' className='gap-4 text-primary font-semibold mx-8 flex py-2 text-sm md:text-base hover:cursor-pointer duration-300 transition' >
                                         Beranda
-                                    </Link>
+                                    </a>
                                 </li>
                                 <li className='flex flex-row items-center justify-center'>
-                                    <Link to='/tentang-desa' className='gap-4 text-primary font-semibold mx-8 flex py-2 text-sm md:text-base hover:cursor-pointer duration-300 transition' >
+                                    <a href='/tentang-desa' className='gap-4 text-primary font-semibold mx-8 flex py-2 text-sm md:text-base hover:cursor-pointer duration-300 transition' >
                                         Tentang Desa
-                                    </Link>
+                                    </a>
                                 </li>
                                 <li className='flex flex-row items-center justify-center'>
                                     <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" className={` text-primary font-semibold mx-8 py-2 text-sm md:text-base hover:cursor-pointer duration-300 transition flex items-center justify-center`}>Wisata <svg className="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
@@ -59,10 +59,10 @@ const Navbar = () => {
                                     <div id="dropdownNavbar" className="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
                                         <ul className="py-2 text-sm text-primary font-semibold" aria-labelledby="dropdownLargeButton">
                                             <li>
-                                                <Link to='/wisata/pantai-mengening' className="block px-4 py-2">Pantai Mengening</Link>
+                                                <a href='/wisata/pantai-mengening' className="block px-4 py-2">Pantai Mengening</a>
                                             </li>
                                             <li>
-                                                <Link to='/wisata/pantai-seseh' className="block px-4 py-2">Pantai Seseh</Link>
+                                                <a href='/wisata/pantai-seseh' className="block px-4 py-2">Pantai Seseh</a>
                                             </li>
                                                     
                                         </ul>
@@ -91,10 +91,10 @@ const Navbar = () => {
                     <ul className='flex items-center gap-6'>
                         
                         <li>
-                            <Link to='/' className={`font-semibold text-base ${color}`}>Beranda</Link>
+                            <a href='/' className={`font-semibold text-base ${color}`}>Beranda</a>
                         </li>
                         <li>
-                            <Link to='/tentang-desa' className={`font-semibold text-base ${color}`}>Tentang Desa</Link>
+                            <a href='/tentang-desa' className={`font-semibold text-base ${color}`}>Tentang Desa</a>
                         </li>
                         <li>
                             <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbarlarge" className={`${color} text-base font-semibold flex items-center justify-between w-full py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 md:w-auto`}>Wisata <svg className="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
@@ -105,10 +105,10 @@ const Navbar = () => {
                             <div id="dropdownNavbarlarge" className="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
                                 <ul className="py-2 text-sm text-primary font-semibold" aria-labelledby="dropdownLargeButton">
                                     <li>
-                                        <Link to='/wisata/pantai-mengening' className="block px-4 py-2">Pantai Mengening</Link>
+                                        <a href='/wisata/pantai-mengening' className="block px-4 py-2">Pantai Mengening</a>
                                     </li>
                                     <li>
-                                        <Link to='/wisata/pantai-seseh' className="block px-4 py-2">Pantai Seseh</Link>
+                                        <a href='/wisata/pantai-seseh' className="block px-4 py-2">Pantai Seseh</a>
                                     </li>
                                             
                                 </ul>
