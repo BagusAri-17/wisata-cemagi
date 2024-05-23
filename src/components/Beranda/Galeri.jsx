@@ -9,11 +9,11 @@ import image7 from '../../assets/galeri/image-7.png'
 
 const Galeri = () => {
     return (
-        <section id="galeri" className="py-20">
+        <section id="galeri" className="my-20">
             <div className="container">
                 <div className="text-center">
                     <h2 className='text-base md:text-lg lg:text-2xl font-medium text-primary leading-[32px]'>Galeri</h2>
-                    <h1 className='text-2xl md:text-3xl lg:text-5xl lg:mt-2 font-semibold text-sec'>
+                    <h1 className='text-2xl font-semibold md:text-3xl lg:text-5xl lg:mt-2 text-sec'>
                         Keindahan Desa Cemagi
                     </h1>
                 </div>

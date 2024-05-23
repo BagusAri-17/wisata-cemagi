@@ -2,11 +2,11 @@ import React from 'react'
 
 const Maps = () => {
     return (
-        <section className='py-20'>
+        <section className='my-20'>
             <div className='container'>
                 <div className='text-center'>
                     <h1 className='text-base md:text-lg lg:text-2xl font-medium text-primary leading-[32px]'>Lokasi</h1>
-                    <h2 className="text-2xl md:text-3xl lg:text-5xl lg:mt-2 font-semibold text-sec">
+                    <h2 className="text-2xl font-semibold md:text-3xl lg:text-5xl lg:mt-2 text-sec">
                         Jelajahi Desa Cemagi
                     </h2>
                 </div>

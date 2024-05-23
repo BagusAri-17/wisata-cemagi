@@ -4,11 +4,11 @@ import {Link} from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <section className='py-16 bg-sec'>
+    <footer className='py-16 bg-sec'>
         <div className='container'>
-            <div className='text-center space-y-8'>
-                <h1 className='text-primary text-4xl lg:text-5xl font-indo'>desa wisata cemagi</h1>
-                <div className='flex mt-4 gap-4 text-white justify-center items-center'>
+            <div className='space-y-8 text-center'>
+                <h1 className='text-4xl text-primary lg:text-5xl font-indo'>desa wisata cemagi</h1>
+                <div className='flex items-center justify-center gap-4 mt-4 text-white'>
                   <Link to='https://wa.me/+628123948602'>
                     <AiOutlineWhatsApp size={24} />
                   </Link>
@@ -20,10 +20,10 @@ const Footer = () => {
                   </Link>
                 </div>
                 <div className='border-t border-white rounded'></div>
-                <p className='text-xs md:text-sm leading-6 text-white'>© Desa Wisata Cemagi All Rights Reserved. Website by <span className='font-semibold'>Tim Perbekel Cemagi.</span></p>
+                <p className='text-xs leading-6 text-white md:text-sm'>© Desa Wisata Cemagi All Rights Reserved. Website by <span className='font-semibold'>Tim Perbekel Cemagi.</span></p>
             </div>
         </div>
-    </section>
+    </footer>
   )
 }
 
